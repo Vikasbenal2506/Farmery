@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Farmery</title>
+    <link rel="icon" type ="image/x-icon" href="favicon-32x32.png" >
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            Farmery
+        </div>
+    </header>
+
+    <main>
+        <section class="first-section">
+            <div class="left-section">
+                Adding <br>
+                <span id="element"></span>
+                <div>to your life.</div>
+            </div>
+
+            <div class="right-section">
+                <p id="log" class="tabs" onclick="loginfun()">Log in</p>
+                <p id="reg" class="tabs" onclick="regfun()">Register</p>
+                <div id="clear"></div>
+                <div id="cont">
+                    <div id="Login" class="comm">
+                        <h3>Log in</h3>
+                        <input id="username-field" type="email" placeholder="Email" required />
+                        <input id="password-field" type="password" placeholder="Password" required />
+                        <input type="submit" onclick="login()" value="Login" />
+                        <!-- <p>Don't have account? <br> <a href="">Register</a></p> -->
+
+                    </div>
+                    <div id="register" class="comm">
+                        <h3>Register</h3>
+                        <input id="name" type="text" placeholder="UserName" required />
+
+                        <input id="emailId" type="email" placeholder="Email" required />
+                        <input id="passWordR" type="password" placeholder="Password" required />
+                        <input type="submit" onclick="register()" value="Register" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Green'],
+            typeSpeed: 100,
+        });
+    </script>
+
+</body>
+
+</html>

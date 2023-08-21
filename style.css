@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("farm.jpg");
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 3.2rem;
+    height: 80px;
+    background-color: rgba(6, 92, 3, 0.758);
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 85px 10px;
+}
+
+.left-section {
+    justify-content: space-around;
+    font-size: 4rem;
+}
+
+#element {
+    color: rgb(5, 71, 0);
+    font-size: 5rem;
+}
+
+.right-section {
+    margin-left: 150px;
+    background-color: rgba(0, 0, 33, 0.796);
+}
+
+.tabs {
+    padding: 10px 45px;
+    float: left;
+    text-align: center;
+    border: 1.5px solid rgb(144, 144, 234);
+    position: relative;
+    font-size: 1.3rem;
+    color: white;
+}
+
+#log {
+    border-right: 0;
+}
+
+.tabs:hover,
+p {
+    cursor: pointer;
+    color: olive;
+}
+
+#cont {
+    height: 300px;
+    border: 2px solid rgba(144, 144, 234, 0.814);
+    border-top: 0;
+}
+
+input {
+    display: block;
+    width: 250px;
+    margin: 10px 13px;
+    padding: 10px;
+    font-size: 1.2rem;
+    outline: 2px solid #ffffff;
+}
+
+input[type="submit"] {
+    width: 272px;
+    color: #6e6e6e;
+}
+
+#clear {
+    clear: both;
+}
+
+.comm {
+    position: absolute;
+    visibility: hidden;
+}
+
+#Login {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    visibility: visible;
+}
+
+#Login p {
+    font-size: 1rem;
+    font-family: Arial;
+}
+
+#register {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    display: flex;
+    padding: 10px 15px;
+    color: #ffffff;
+}
+
+p {
+    padding: 10px 15px;
+    font-size: 1.3em;
+    color: #ffffff;
+}
